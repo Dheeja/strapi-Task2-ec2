@@ -11,7 +11,7 @@ resource "aws_instance" "strapi" {
   user_data = file("${path.module}/scripts/install-strapi.sh")
 
   tags = {
-    Name = "Strapi-Server"
+    Name = "Strapi-task2"
   }
 }
 

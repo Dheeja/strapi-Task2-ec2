@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "strapi" {
-  ami                    = "ami-0c55b159cbfafe1f0" # Ubuntu 22.04 LTS
+  ami                    = "ami-084568db4383264d4" # Ubuntu 22.04 LTS
   instance_type          = "t2.micro"
   key_name               = var.key_name
   vpc_security_group_ids = [aws_security_group.strapi_sg.id]

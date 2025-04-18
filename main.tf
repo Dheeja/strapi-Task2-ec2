@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "ap-south-1" # or your preferred region
+  region = "us-east-1" # or your preferred region
 }
 
 resource "aws_instance" "strapi" {
